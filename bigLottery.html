@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>大樂透投注小遊戲</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #ffff11;
+            font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+            padding-top: 2%;
+        }
+
+        table.border-primary td {
+            width: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <table id="myTable" class="table table-bordered border-primary">
+                <thead>
+                    <tr>
+                        <th colspan="2">
+                            <img src="biglotto.png" alt="" class="mx-auto" style="display:back;">
+                        </th>
+                    </tr>
+                    <tr>
+                        <th scope="col">選擇投注號碼</th>
+                        <th scope="col">遊戲介紹</th>
+                    </tr>
+                </thead>
+                <t>
+                    <tr>
+                        <td>
+                            <div style="height:250px;display:flex;flex-wrap:wrap;align-content:
+                    space-around;">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check1" type="checkbox" value="1"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check1">01</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check2" type="checkbox" value="2"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check2">02</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check3" type="checkbox" value="3"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check3">03</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check4" type="checkbox" value="4"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check4">04</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check5" type="checkbox" value="5"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check5">05</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check6" type="checkbox" value="6"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check6">06</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check7" type="checkbox" value="7"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check7">07</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check8" type="checkbox" value="8"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check8">08</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check9" type="checkbox" value="9"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check9">09</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check10" type="checkbox" value="10"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check10">10</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check11" type="checkbox" value="11"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check11">11</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check12" type="checkbox" value="12"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check12">12</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check13" type="checkbox" value="13"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check13">13</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check14" type="checkbox" value="14"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check14">14</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check15" type="checkbox" value="15"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check15">15</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check16" type="checkbox" value="16"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check16">16</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check17" type="checkbox" value="17"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check17">17</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check18" type="checkbox" value="18"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check18">18</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check19" type="checkbox" value="19"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check19">19</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check20" type="checkbox" value="20"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check20">20</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check21" type="checkbox" value="21"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check21">21</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check22" type="checkbox" value="22"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check22">22</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check23" type="checkbox" value="23"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check23">23</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check24" type="checkbox" value="24"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check24">24</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check25" type="checkbox" value="25"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check25">25</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check26" type="checkbox" value="26"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check26">26</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check27" type="checkbox" value="27"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check27">27</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check28" type="checkbox" value="28"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check28">28</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check29" type="checkbox" value="29"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check29">29</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check30" type="checkbox" value="30"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check30">30</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check31" type="checkbox" value="31"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check31">31</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check32" type="checkbox" value="32"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check32">32</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check33" type="checkbox" value="33"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check33">33</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check34" type="checkbox" value="34"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check34">34</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check35" type="checkbox" value="35"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check35">35</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check36" type="checkbox" value="36"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check36">36</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check37" type="checkbox" value="37"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check37">37</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check38" type="checkbox" value="38"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check38">38</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check39" type="checkbox" value="39"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check39">39</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check40" type="checkbox" value="40"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check40">40</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check41" type="checkbox" value="41"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check41">41</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check42" type="checkbox" value="42"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check42">42</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check43" type="checkbox" value="43"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check43">43</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check44" type="checkbox" value="44"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check44">44</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check45" type="checkbox" value="45"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check45">45</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check46" type="checkbox" value="46"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check46">46</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check47" type="checkbox" value="47"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check47">47</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check48" type="checkbox" value="48"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check48">48</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" id="Check49" type="checkbox" value="49"
+                                        name="chkRights[]">
+                                    <label class="form-check-label" for="Check49">49</label>
+                                </div>
+                            </div>
+                        </td>
+
+                        <td>基本玩法<br>
+                            大樂透是一種樂透型遊戲。您必須從01~49中任選6個號碼進行投注。開獎時，開獎單位將隨機開出六個號碼加一個特別號，這一組號碼就是該期大樂透的中獎號碼，也稱為「獎號」。您的六個選號中，如果有三個以上（含三個號碼）對中當期開出之六個號碼（特別號只適用於貳獎、肆獎、陸獎和柒獎），即為中獎，並可依規定兌領獎金。
+                            <table class="table-bordered border-danger">
+                                <tbody>
+                                    <tr>
+                                        <td>獎項</td>
+                                        <td>中獎方式</td>
+                                    </tr>
+                                    <tr>
+                                        <td>頭獎</td>
+                                        <td>與當期六個獎號完全相同者</td>
+                                    </tr>
+                                    <tr>
+                                        <td>貳獎</td>
+                                        <td>對中當期獎號之任五碼＋特別號</td>
+                                    </tr>
+                                    <tr>
+                                        <td>參獎</td>
+                                        <td>對中當期獎號之任五碼</td>
+                                    </tr>
+                                    <tr>
+                                        <td>肆獎</td>
+                                        <td>對中當期獎號之任四碼＋特別號</td>
+                                    </tr>
+                                    <tr>
+                                        <td>伍獎</td>
+                                        <td>對中當期獎號之任四碼</td>
+                                    </tr>
+                                    <tr>
+                                        <td>陸獎</td>
+                                        <td>對中當期獎號之任三碼＋特別號</td>
+                                    </tr>
+                                    <tr>
+                                        <td>柒獎</td>
+                                        <td>對中當期獎號之任兩碼＋特別號</td>
+                                    </tr>
+                                    <tr>
+                                        <td>普獎</td>
+                                        <td>對中當期獎號之任三碼</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>頭獎中獎率約1/1,398萬，總中獎率約1/32</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="button" class="btn btn-success" onclick="autoChoice()">電腦選號(6個號碼)</button>
+                            <button type="button" class="btn btn-primary ms-2" onclick="reset()">清除重選</button>
+                        </td>
+
+                        <td>獎金分配方式<br>
+                            伍獎獎金固定為每注新臺幣2,000元；陸獎獎金固定為每注新臺幣1,000元；柒獎及普獎獎金固定為每注新臺幣400元。<br><br>
+                            頭獎至肆獎之實際中獎金額係由總獎金扣除伍獎至普獎後之餘額，再依下列獎金分配比率及實際中獎注數分配之（計算至元為止，元以下無條件捨去。該捨去部分所產生之款項將視為逾期未兌領獎金，全數歸入公益彩券盈餘）。<br>
+                            <table class="table-bordered border-info">
+                                <thead>
+                                    <tr>
+                                        <td>獎項</td>
+                                        <td>頭獎</td>
+                                        <td>貳獎</td>
+                                        <td>参獎</td>
+                                        <td>肆獎</td>
+                                        <td>合計</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>獎金分配比率</td>
+                                        <td>82%</td>
+                                        <td>6.5%</td>
+                                        <td>7.0%</td>
+                                        <td>4.5%</td>
+                                        <td>100%</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><button type="button" class="btn btn-danger" onclick="openWinner()">進行開獎</button>
+                        </td>
+                        <td>開獎號碼:</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">開獎狀態:</td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="./comlib.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script>
+        var chk_arr = document.getElementsByName("chkRights[]");
+        var chklength = chk_arr.length;
+        //清除所有號碼勾選函數
+        function reset() {
+            for (let i = 0; i <= 48; i++) {
+                chk_arr[i].checked = false;
+            }
+        }
+        //自動選號函數
+        function autoChoice() {
+            //先清除所有選擇
+            reset();
+            //產生12個電腦選號程式
+            for (let i = 0; i <= 5; i++) {
+                let chkData = rand(0, 48);
+                // 檢查值是否有被選擇
+                if (chk_arr[chkData].checked == false) {
+                    chk_arr[chkData].checked = true;
+                } else {
+                    i--;
+                }
+            }
+
+        }
+
+        //因為 openWinner()函數 與 getBonus()函數 都會 共用到winBall陣列變數 與SpecialBall變數，所以拿出來在函數外面做宣告。
+        let winBall;    //存赢球陣列
+        let SpecialBall; //存特別號
+
+        //開獎函數
+
+        function openWinner() {
+            var tableEle1 = document.getElementById("myTable").rows[4].cells[1];//取得表格4列1欄
+            var tableEle2 = document.getElementById("myTable").rows[5].cells[0];//取得表格5列0欄
+
+            let Ball = new Array();       //開獎球存陣列
+            let selectBall = new Array(); //選擇球存陣列
+
+            winBall = new Array(); ////存赢球陣列，每次開獎，赢球陣列的內容，都要在開獎當下，重新清空一次
+
+            let result = ""; //存結果變數
+            for (let i = 0; i <= 48; i++) {
+                if (chk_arr[i].checked == true) {   //計算有多少號碼被勾選
+                    selectBall.push(i + 1);
+                    console.log(`selectBall=${selectBall}`);
+                }
+            }
+            if (selectBall.length != 6) {
+                alert("投注號碼不可小於或大於6注");
+                return false;
+            }
+
+            for (let i = 0; i <= 6; i++) {//進行開獎,共開6+1球，最後開的一球是特別號
+                let chkData = rand(1, 49);//開獎範圍1-49,每次開一球存chkData
+                if (Ball.indexOf(chkData) == -1) {// 検查開獎球是否有重復
+                    Ball.push(chkData); //如果沒有重復存入Bal1陣列
+                    //判斷有沒有在選擇的號碼勾選中
+                    if (chk_arr[chkData - 1].checked == true) {
+                        winBall.push(chkData);//檢查第幾球中獎,如果有中獎需保留值下來
+                    }
+                } else {
+                    //假如有開出重複球，i要減去累加1，重新計數，不然每次有開出重複球的話，就會少開球!
+                    i--;
+                }
+            }
+
+            //以下處理特別號，處理的方法是，
+            //剛剛開獎球 7 個號碼的 陣列 Ball[0-6]中，最後面開出來的Ball[6]，當作特別號，存到SpecialBall變數，
+            //存到SpecialBall變數之後，移除 陣列Ball[0-6] 的 第Ball[6] 位置 的號碼，讓Ball[]陣列，剩下Ball[0-5] 6個開獎號碼。
+            SpecialBall = Ball[6];
+
+            let allNumbersBall = [...Ball]; //先把全部 7個 開獎號碼 另存 到allNumbersBall陣列中，後面可以做比對。
+            Ball.length = 6; //設定Ball陣列 長度最多=6， 後面多的就會自動刪除!
+
+
+            //將結果插入表格中
+            tableEle1.innerHTML =
+                "<h4>完整開獎的7個號碼:" + allNumbersBall + "</h4><br>" +
+                "<h4>開獎號碼:" + Ball + "，特別號: <span style='color:red'>" + SpecialBall + "</span></h4><br>" +
+                "<h4>排序號碼:" + Ball.sort(function (a, b) { return a - b; }) + "，特別號: <span style='color:red'>" + SpecialBall + "</span></h4>";
+
+            result = result + "<h4>投注號碼:" + selectBall + "</h4>";
+            result = result + "<h4>對中當期獎號:" + winBall.length + "，中獎號碼:" + winBall.sort
+                (function (a, b) { return a - b; }) + "</h4>";
+
+            result = result + "<h4>中獎状態:" + getBonus(winBall.length) + "</h4>";
+            tableEle2.innerHTML = result;
+        }
+
+
+        //取得中獎資訊與金額
+        //分成二種情形，一種是中獎號碼沒有包含特別號(陣列的indexOf()方法回傳 -1，表示找不到)，另一種是中獎號碼有包含特別號。
+        function getBonus(level) {
+
+            switch (level) {
+                case 6:
+                    if (winBall.indexOf(SpecialBall) === -1) {
+                        return ("頭獎")
+                        break;
+                    }
+                case 6:
+                    if (winBall.indexOf(SpecialBall) !== -1) {
+                        return ("貳獎(含特別號：<span style='color:red'>" + SpecialBall + "</span>)")
+                        break;
+                    }
+                case 5:
+                    if (winBall.indexOf(SpecialBall) === -1) {
+                        return ("參獎")
+                        break;
+                    }
+                case 5:
+                    if (winBall.indexOf(SpecialBall) !== -1) {
+                        return ("肆獎(含特別號：<span style='color:red'>" + SpecialBall + "</span>)")
+                        break;
+                    }
+                case 4:
+                    if (winBall.indexOf(SpecialBall) === -1) {
+                        return ("伍獎:$2,000")
+                        break;
+                    }
+                case 4:
+                    if (winBall.indexOf(SpecialBall) !== -1) {
+                        return ("陸獎:$1,000(含特別號：<span style='color:red'>" + SpecialBall + "</span>)")
+                        break;
+                    }
+                case 3:
+                    if (winBall.indexOf(SpecialBall) !== -1) {
+                        return ("柒獎:$400(含特別號：<span style='color:red'>" + SpecialBall + "</span>)")
+                        break;
+                    }
+                case 3:
+                    if (winBall.indexOf(SpecialBall) === -1) {
+                        return ("普獎:$400")
+                        break;
+                    }
+                default:
+                    return ("無中獎!!")
+                    break;
+            }
+
+        }
+    </script>
+
+    <script>
+        //數字0-9 補字串"0"
+        function addZero(num) {
+            return num < 10 ? "0" + num : num;
+        }
+
+        // 建立rand(min,max)自訂函數(PPT第30頁)
+        //可自訂範圍min到max之間的亂數,產生函數
+        //min亂數最小範圍,max亂數最大範圍
+        function rand(min, max) {
+            // Math.random() ,JS產生0-1之間的隨機亂數,包含0不包含1之間的值。
+            // Math.floor() ,函式會回傳「無條件捨去」的整數,如12.3則回傳整數12。
+            // Math.ceil() ,函式會回傳「無條件進位」整數,如1.03則回傳整數2。
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1) + min);//回傳min到max之間的亂數
+            /*
+               例如:rand(5,10);程式執行情形
+               return 最小返回5,Math.floor(0*(10-5+1)+5)
+               return 最大返回10,Math.floor(0.9*(10-5+1)+5)
+           */
+        }
+    </script>
+</body>
+
+</html>
